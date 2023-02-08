@@ -48,6 +48,8 @@ a
     padding: 0.5rem;
     vertical-align: middle;
     width: 100%;
+    position: fixed;
+    z-index: 1;
 }
 
 .col-h
