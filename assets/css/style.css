@@ -1,0 +1,21 @@
+/* #region common */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --za-header: #ff6900;
+    --za-headertext: #e7e7e7;
+    --za-card: #e7e7e7;
+    --za-sustain: #008000;
+    --za-discount: #ff0000;
+    --za-footer: #1a1a1a;
+}
+
+/* #endregion common */
+
