@@ -63,10 +63,15 @@ a
     align-items: center;
 }
 
-.category > a
+.category li
+{
+    padding-right: 0.5rem;
+    list-style: none;
+}
+
+.category a
 {
     color: var(--za-headertext);
-    padding-right: 0.5rem;
 }
 
 .logo
