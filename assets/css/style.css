@@ -198,6 +198,11 @@ img
     display: block;
 }
 
+.card:hover .like > i
+{
+    color: red;
+}
+
 /* #endregion interaction photo */
 
 /* #endregion main */
