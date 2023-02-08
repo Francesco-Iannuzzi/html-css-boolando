@@ -88,9 +88,10 @@ img
     justify-content: flex-end;
 }
 
-.login > i
+.login > a
 {
-    padding-left: 0.5rem;;
+    padding-left: 0.5rem;
+    color: var(--za-headertext);
 }
 
 /* #endregion header */
