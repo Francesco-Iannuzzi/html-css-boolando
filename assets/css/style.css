@@ -176,6 +176,27 @@ img
     padding: 0.25rem 1rem;
 }
 
+/* #region interaction photo */
+
+.base_photo
+{
+    position: relative;
+}
+
+.second_photo
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.card:hover .second_photo
+{
+    display: block;
+}
+
+/* #endregion interaction photo */
 
 
 
