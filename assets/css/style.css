@@ -47,7 +47,6 @@ a
     background-color: var(--za-header);
     padding: 0.5rem;
     vertical-align: middle;
-    /* position: fixed; */
     width: 100%;
 }
 
@@ -198,10 +197,48 @@ img
 
 /* #endregion interaction photo */
 
-
-
 /* #endregion main */
 
 /* #region footer */
+
+#app_footer
+{
+    background-color: var(--za-footer);
+}
+
+.box_footer
+{
+    justify-content: space-between;
+    line-height: 3rem;
+    padding: 2rem 0;
+}
+
+
+.legal
+{
+    color: white;  
+}
+
+.legal a
+{
+    color: white;
+    font-size: 0.8rem;
+    padding-right: 0.5rem;
+}
+
+.social
+{
+    color: white;
+}
+
+.icon_social
+{
+    justify-content: space-between;
+}
+
+.icon_social i
+{
+    align-self: flex-end;
+}
 
 /* #endregion footer */
