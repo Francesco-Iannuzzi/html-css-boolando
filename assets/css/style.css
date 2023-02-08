@@ -17,5 +17,70 @@
     --za-footer: #1a1a1a;
 }
 
+.container
+{
+    width: 80%;
+    margin: auto;
+}
+
+.flex
+{
+    display: flex;
+}
+
+a
+{
+    text-decoration: none;
+}
+
 /* #endregion common */
 
+#app_header
+{
+    background-color: var(--za-header);
+    padding: 0.5rem;
+    vertical-align: middle;
+    position: fixed;
+    width: 100%;
+}
+
+.col-h
+{
+    width: 100%;
+}
+
+.category
+{
+    width: 25%;
+    align-items: center;
+}
+
+.category > a
+{
+    color: var(--za-headertext);
+    padding-right: 0.5rem;
+}
+
+.logo
+{
+    text-align: center;
+    width: 50%;
+}
+
+img
+{
+   width: 7rem;
+}
+
+.login
+{
+    width: 25%;
+    color: var(--za-headertext);
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.login > i
+{
+    padding-left: 0.5rem;;
+}
